@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <div id="card">
+            <form id="nav">
+                <i class="ri-search-line" id="search"></i>
+                <button>Search</button>
+                <input type="text" class="city-name" placeholder="Search Your City..">
+            </form>
+            <div id="text">
+                <div class="text1">
+                    <h1 id="city"></h1>
+                    <p id="date"></p>
+                    <button  id="data"></button>
+                </div>
+                <div class="text2">
+                    <img src="https://i.pinimg.com/originals/3f/9f/05/3f9f05296f222540e0e3905108015e0d.jpg" alt="">
+                    <h2 id="temp"></h2>
+                </div>
+                <div class="text3">                
+                    <p id="min"></p>
+                    <p id="max"></p>
+                </div>
+            </div>
+            <div id="div">
+                <div class="div1">
+                    <div class="logo1">
+                        <p>feel Like</p>
+                        <p id="feel"></p>
+                    </div>
+                    <div class="logo2">
+                        <p>Humidity</p>
+                        <p id="hum"></p>
+                    </div>
+                </div>
+                <div class="div2">
+                    <div class="logo3">
+                        <p>Wind</p>
+                        <p id="wind"></p>
+                    </div>
+                    <div class="logo4">
+                        <p>Pressure</p>
+                        <p id="pro"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="practice.js"></script>
+</body>
+</html>
